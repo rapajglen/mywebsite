@@ -1,0 +1,1130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> TurtelSoftware </title>
+
+         <!-- Scripts defer -->
+    <script src="https://immense-caverns-77674.herokuapp.com/js/app.js" ></script>
+
+          <!-- Font Awesome Icons 
+          <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+-->
+            <!-- Compiled and minified CSS 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+-->
+
+ <!-- Icons -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    
+    <!-- Styles 
+    <link rel="stylesheet" href="https://immense-caverns-77674.herokuapp.com/css/app.css" >
+-->
+
+
+    <!-- foto icon in tab   
+    <link rel="icon" type="image/jpg" href="file://C:/Users/user/Desktop/images/coctail.jpg" />
+
+<script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+-->
+    <link rel="stylesheet" href="C:\Users\user\Desktop\local-website\css\materialize.css"/>
+    <link rel="stylesheet" href="C:\Users\user\Desktop\local-website\css/styles.css"/>
+
+    <style>
+
+html, body {
+    min-height: 100%;
+  }
+
+      hr {
+        width: 30%;
+        border: 1px solid rgba(4, 4, 151, 0.664);
+      }
+
+      p {
+        margin-top: 7%;
+      }
+
+      .custom-icon{
+      
+        padding-top: 5% !important;
+        padding-bottom: 3% !important;
+ 
+        text-align: center;
+        color: #fdfdfd;
+        font-size: large;
+      }
+
+      .service-text{
+        text-align: center;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 4%;
+      }
+
+      .writing-wall{
+        /*  position: relative;  */
+        text-align: center;
+        color: white;
+        margin-top: -64px;
+      }
+
+      .pushpin{
+        width: 100%;
+        z-index: 5;
+        background-color: black;
+      }
+
+    </style>
+
+  </head>
+    <body >
+
+
+
+ <!--  Fillon navbar   -->  <!-- rregullo linqet pushpin-->
+ <div class="row " style="margin-bottom: 0px; ">       
+
+      <nav style=" background-color: transparent !important; " >
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">TurtelSoftware</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right">   <i class="large material-icons">menu</i>  </a>
+          
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+    
+            <li class="active" ><a href="#"> Home </a></li>
+            <li><a href="#"> ABOUT </a></li>
+            <li><a href="#"> PORTOFOLIO </a></li>
+            <!-- Dropdown Trigger  -->
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown2" style=" height: 64px; "  >  Services </a></li>
+    
+          </ul>
+        </div>
+      </nav>
+
+                  <!-- Dropdown Structure desktop -->
+                  <ul id="dropdown2" class="dropdown-content">
+                    <li><a href="#!"> Web Development </a></li>
+                    <li><a href="#!"> Web Designe </a></li>
+                  
+                    <li class="divider"></li>
+                  
+                    <li><a href="#!"> Fixing Bugs </a></li>
+                  
+                    <li class="divider"></li>
+                    <li><a href="#!"> Sql Queries </a></li>
+                    <li><a href="#!"> Fixing Sql  queries </a></li>
+                  
+                  </ul>
+    
+            <!-- Dropdown Structure mobile tablet -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#!"> Web Development </a></li>
+              <li><a href="#!"> Web Designe </a></li>
+            
+              <li class="divider"></li>
+            
+              <li><a href="#!"> Fixing Bugs </a></li>
+            
+              <li class="divider"></li>
+              <li><a href="#!"> Sql Queries </a></li>
+              <li><a href="#!"> Fixing Sql  queries </a></li>
+            
+            </ul>
+    
+    <!--     --> 
+      <ul class="sidenav" id="mobile-demo">
+    
+        <li class="active" ><a href="#"> Home </a></li>
+        <li><a href="#"> ABOUT </a></li>
+        <li><a href="#"> PORTOFOLIO </a></li>
+       
+       <!-- Dropdown Trigger  -->
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"> Services  <i class="small material-icons white">arrow_drop_down</i> </a></li>
+   
+      </ul>
+ 
+</div>    
+     
+
+ <!--  Mbaron navbar -->
+
+
+
+
+<div class="row" style=" margin-bottom: 5%; " id="wall-img" > 
+    <div class="col s12 writing-wall " style=" padding: 0px; ">
+      <img alt=""  src="C:\Users\user\Desktop\local-website\images\back.jpeg" width="100%"/>
+
+      <div class="center-align" style=" position: absolute; top: 45%; left: 30%;"  > <!-- style=" position: absolute; top: 45%; left: 30%;" -->
+
+        <span id="mywritings-onwall" style="font-size: 40px; " >  Technology breaks the walls </span>
+        <br/>
+        <a href="#about" style="padding-top: 20px; ">   <i class="large material-icons">expand_more</i>   </a> 
+
+      </div>
+    </div>
+</div>  
+
+<!--  
+                <div class="par-txt"> 
+                        <h1 style=" color: white; ">   Technology breaks the wall   </h1>
+                        <br>  <a class="btn main-btn btn-floating pulse" href="#about" style="  border-radius: 50%;" >  buton  </a>
+                     
+                </div>
+  -->               
+
+
+
+  <!-- Fillon About  -->
+  <div class="row" id="about" >
+    <div class="col s12">   <h3 class=" movement "  > About Me! </h3>   </div>
+  </div>
+
+  <div class="row" style="padding-bottom: 10%;  " >
+
+    <div class="col s12 l6"  > <!-- Fillon divi 1 -->
+
+      <div   >      <!-- class="list-container"  style="position: relative ;"  style="position: absolute ; top: 100%;"  -->
+        <h4 class=" movement "> What we do? </h4> 
+
+        <hr/>
+       
+          <p class="move-paragraph" >
+            Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. 
+            Proin eu augue sit amet sem 
+            porttitor convallis tempor vitae ante.
+            <br/>
+            <a style="margin-left: 7px;" href="#"> Learn more... </a>
+          </p>
+        
+       
+       
+      </div>
+      
+    </div>  <!-- Mbaron divi 1 -->
+
+    <div class="col s12 l6"  > <!-- Fillon divi 2 -->
+
+      <div >
+        <h4 class=" movement "> Who we are? </h4> 
+
+        <hr/>
+        <p class="move-paragraph" >
+          Lorem ipsum dolor sit amet, 
+          consectetur adipiscing elit. 
+          Proin eu augue sit amet sem 
+          porttitor convallis tempor vitae ante.
+          <br/>
+          <a style="margin-left: 7px; padding-bottom: 10px;" href="#"> Learn more... </a>
+        </p>
+        
+      </div>
+      
+    </div>   <!-- Mbaron divi 2 -->
+
+  </div>
+
+  <div class="row"  style="padding-bottom: 10%;  " >
+
+    <div class="col s12 l6 " >  <!-- Fillon divi 3 -->
+      <div  >
+        <img id="paragraphmove" class="responsive-img"  alt="" src="C:\Users\user\Desktop\local-website\images\imagefront.jpeg"  width="100%" />
+
+      </div>
+      
+    </div>    <!-- Mbaron divi 3 -->
+
+    <div class="col s12 l6 ">  <!-- Fillon divi 4 -->
+
+      <h4 > How we are working? </h4> 
+        <hr/>
+
+      <div id="paragraph-move" style="padding-top: 10px;">
+      <p>
+        Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. 
+        Proin eu augue sit amet sem 
+        porttitor convallis tempor vitae ante.
+      </p>
+      
+
+      <p>
+        Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. 
+        Proin eu augue sit amet sem 
+        porttitor convallis tempor vitae ante.
+
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. 
+        Proin eu augue sit amet sem 
+        porttitor convallis tempor vitae ante.
+
+      </p>
+    </div>
+
+    </div>    <!-- Mbaron divi 4 -->
+    
+  </div>
+ <!-- Mbaron About  -->
+
+
+ <!-- Fillon Serviset -->
+
+ <div class="row" id="services" >
+    <div class="col s12 " > <h3> Services </h3> </div>
+ </div>
+
+ <div class="row" style="padding-bottom: 15%;">
+
+  <div class="col s12 m6 l3 center-align" >  <!--  Fillon service 1 -->
+
+    <i class="medium material-icons">build</i>
+    <br/>
+    <h5> Web Development </h5>
+    <br/>
+    <hr/>
+    <p class="service-text">
+      Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. 
+      Proin eu augue sit amet sem 
+      porttitor convallis tempor vitae ante.
+
+    </p>
+
+  </div>   <!--  Mbaraon service 1 -->
+
+  <div class="col s12 m6 l3 center-align" >  <!--  Fillon service 2 -->
+
+    <i class="medium material-icons">edit</i>
+    <br/>
+    <h5> Web Designe </h5>
+    <br/>
+    <hr/>
+    <p class="service-text">
+      Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. 
+      Proin eu augue sit amet sem 
+      porttitor convallis tempor vitae ante.
+
+    </p>
+
+  </div>   <!--  Mbaraon service 2 -->
+
+
+  <div class="col s12 m6 l3 center-align" >  <!--  Fillon service 3 -->
+
+    <i class="medium material-icons">filter_drama</i>
+    <br/>
+    <h5> API </h5>
+    <br/>
+    <hr/>
+    <p class="service-text">
+      Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. 
+      Proin eu augue sit amet sem 
+      porttitor convallis tempor vitae ante.
+
+    </p>
+
+  </div>   <!--  Mbaraon service 3 -->
+
+  <div class="col s12 m6 l3 center-align" >  <!--  Fillon service 4 -->
+
+    <i class="medium material-icons">code</i>
+    <br/>
+    <h5> CMS </h5>
+    <br/>
+    <hr/>
+    <p class="service-text">
+      Lorem ipsum dolor sit amet, 
+      consectetur adipiscing elit. 
+      Proin eu augue sit amet sem 
+      porttitor convallis tempor vitae ante.
+
+    </p>
+
+  </div>   <!--  Mbaraon service 4 -->
+
+
+ </div>
+<!-- Mbaron Serviset -->
+
+
+<div class="row" id="arritje" >         <!-- Fillon pjesa e arritjeve -->
+<div class="achivements col s12 show-on-small hide-on-med-and-up " style="padding-bottom: 15%;  " >  
+ <div class="parallax-container show-on-small	 " style=" height: 900px; " >  
+  <div class="parallax">
+
+    <img src="C:\Users\user\Desktop\local-website\images\achivements.jpeg">
+
+      <div class="row" style=" margin-top: 5%; " >    <!-- ska mbaruar  -->
+      
+        <div class="col s12 m6 l3 custom-icon  " > <!-- Fillon Card 1 -->
+
+          <i class="medium material-icons">code</i>
+          <br/>
+          <h5> CMS </h5>
+          <br/>
+          <span class="CMS" > 100 </span>
+
+        </div>   <!-- Mbaron Card 1 -->
+
+        <div class="col s12 m6 l3 custom-icon " > <!-- Fillon Card 2 -->
+
+          <i class="medium material-icons">filter_drama</i>
+          <br/>
+          <h5> API </h5>
+          <br/>
+          <span class="API" > 30 </span>
+
+        </div>   <!-- Mbaron Card 2 -->
+
+        <div class="col s12 m6 l3 custom-icon  " > <!-- Fillon Card 3 -->
+
+          <i class="medium material-icons">build</i>
+          <br/>
+          <h5> Web Development </h5>
+          <br/>
+          <span class="WD" > 200 </span>
+
+        </div>   <!-- Mbaron Card 3 -->
+
+        <div class="col s12 m6 l3 custom-icon  " > <!-- Fillon Card 4 -->
+
+          <i class="medium material-icons">edit</i>
+          <br/>
+          <h5> Web Designe </h5>
+          <br/>
+          <span class="WDE" > 110 </span>
+
+        </div>   <!-- Mbaron Card 4 -->
+
+
+      </div>
+  </div>
+
+</div>   
+</div>  
+</div>    <!-- Mbaron pjesa e arritjeve -->
+
+
+<div id="arritje1"  class="achivements col l12 hide-on-small-only show-on-medium-and-up" style="padding-bottom: 15%; " >   <!-- Fillon pjesa e arritjeve -->
+<div class="parallax-container " >  
+  <div class="parallax">
+
+    <img src="C:\Users\user\Desktop\local-website\images\achivements.jpeg">
+
+      <div class="row" style=" margin-top: 5%; " >    <!-- ska mbaruar  -->
+      
+        <div class="col s12 m6 l3 custom-icon  " > <!-- Fillon Card 1 -->
+
+          <i class="medium material-icons">build</i>
+          <br/>
+          <h5> Web Development </h5>
+          <br/>
+          <span class="WD" > 200 </span>
+
+        </div>   <!-- Mbaron Card 1 -->
+
+        <div class="col s12 m6 l3 custom-icon " > <!-- Fillon Card 2 -->
+
+          <i class="medium material-icons">edit</i>
+          <br/>
+          <h5> Web Designe </h5>
+          <br/>
+          <span class="WDE" > 110 </span>
+
+        </div>   <!-- Mbaron Card 2 -->
+
+        <div class="col s12 m6 l3 custom-icon  " > <!-- Fillon Card 3 -->
+
+          <i class="medium material-icons">filter_drama</i>
+          <br/>
+          <h5> API </h5>
+          <br/>
+          <span class="API" > 30 </span>
+
+        </div>   <!-- Mbaron Card 3 -->
+
+        <div class="col s12 m6 l3 custom-icon  " > <!-- Fillon Card 4 -->
+
+          <i class="medium material-icons">code</i>
+          <br/>
+          <h5> CMS </h5>
+          <br/>
+          <span class="CMS" > 100 </span>
+
+        </div>   <!-- Mbaron Card 4 -->
+
+
+      </div>
+  </div>
+
+</div>   
+</div>   <!-- Mbaron pjesa e arritjeve -->
+
+
+<div class="row" id="portofoli" >      <!-- Fillon partial portofolio -->
+
+  <div class="col s12" > <h3> OUR WORKS </h3> </div>
+</div>   
+
+<div class="row" style=" margin-bottom: 0px; " >  
+  <div class="col s12 m6 l3 center-align " >  <img class="responsive-img" src="C:\Users\user\Desktop\local-website\images\back.jpeg" alt="" width="300" style=" margin-right: 3%; "  />  </div>
+  <div class="col s12 m6 l3 center-align " >  <img class="responsive-img"  src="C:\Users\user\Desktop\local-website\images\back.jpeg" alt="" width="300" style=" margin-right: 3%; "  />  </div>
+  <div class="col s12 m6 l3 center-align " >  <img class="responsive-img"  src="C:\Users\user\Desktop\local-website\images\back.jpeg" alt="" width="300" style=" margin-right: 3%; "  />  </div>
+  <div class="col s12 m6 l3 center-align " >  <img class="responsive-img"  src="C:\Users\user\Desktop\local-website\images\back.jpeg" alt="" width="300" style=" margin-right: 3%; "  />  </div>
+
+</div>  
+
+<div class="row " style="background-color: black; height: 200px; margin-bottom: 15%;" > 
+  <div class="col s12 m8 l8 center-align " style=" margin-top: 50px; " > 
+    <h5 style="color: white;     font-size: 1.5rem; " > WANT TO SEE MORE WORKS? </h5>
+    <span style="color: white; font-size: 0.9rem; " > WE ARE ALWAYS OPEN TO INTERESTING PROJECTS. </span> 
+  </div>
+  <div class="col m4 l4 center-align hide-on-small-only " style=" margin-top: 80px; " > <a  class="btn blue darken-2"  href="#" style="  border-radius: 10px; " > SEE ALL WORKS </a> </div>
+  <div class="col s12 center-align hide-on-med-and-up " style=" margin-top: 20px; " > <a  class="btn blue darken-2"  href="#" style="  border-radius: 10px; " > SEE ALL WORKS </a> </div>
+
+</div>
+<!-- Mbaron partial portofolio -->
+
+
+<!--  Fillon  pjesa pyetje pergjigje dhe grafiku njohurive -->
+<div class="row" id="knouldige" >
+  <div class="col s12 m5 l5 offset-m1 offset-l1" >  
+    <h5  style=" padding-bottom: 18px; " > Why do you need a website for your busines? </h5>
+
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header" style=" background-color: #efeeee; " >  You can reach at your potential clients evrywere they are. </div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header" style=" background-color: #efeeee; " > Whith a Website you can save money. </div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+      </li>
+
+      <li>
+        <div class="collapsible-header" style=" background-color: #efeeee; " > It will improve the image of your brand. </div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+      </li>
+
+      <li>
+        <div class="collapsible-header" style=" background-color: #efeeee; " > People can reach you 24/7, during all the year long. </div>
+        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <div class="col s12 m5 l5 " >
+
+    <h5  style=" padding-bottom: 18px; " > OUR EXPERTISES </h5>
+
+    <!-- Ska mbaruar duhet te behet me animim lvizja e progres bar-->
+      <span class="left" > <i class="tiny material-icons">build</i> Web Development </span>
+      <span class="right perdent-val ">  90% </span>
+      <div class="progress">
+        <div class="determinate perdent-val-d" style="width: 0%"></div>
+      </div>
+
+      <span class="left" > <i class="tiny material-icons">edit</i> Web Designe </span>
+      <span class="right perdent ">  80% </span>
+      <div class="progress">
+        <div class="determinate perdent-d" style="width: 0%"></div>
+      </div>
+
+      <span class="left" > <i class="tiny material-icons">filter_drama</i> API </span>
+      <span class="right val ">  100% </span>
+      <div class="progress">
+        <div class="determinate val-d" style="width: 0%"></div>
+      </div>
+
+        <span class="left" > <i class="tiny material-icons">code</i> CMS </span>
+        <span class="right perdentval ">  90% </span>
+        <div class="progress">
+          <div class="determinate perdentval-d" style="width: 0%"></div>
+        </div>
+
+  </div>
+
+</div>
+
+
+<!--  Mbaron  pjesa pyetje pergjigje dhe grafiku njohurive -->
+
+
+<div class="row" id="pershtypje" >
+  <div class="col s12 " >  <h3> Testimonials </h3>  </div>
+</div>
+
+
+<!--  Fillojn Komentet chevron_right    -->
+
+<!--   id="rev-container"  
+  class="writing-wall"
+      <div style="position: absolute; top: 50%; right: 0px;">  <i class="large material-icons">chevron_right</i>  </div>
+      <div style="position: absolute; top: 50%; left: 0px;" >  <i class="large material-icons">chevron_left</i>  </div>
+      Desktop only 
+      class=" hide-on-med-and-down show-on-large"
+-->
+
+<div class=" row" style="margin-bottom: 15%;" >   
+    <div class="carousel carousel-slider center " id="rev-container"  >
+
+
+      <div class="parallax-container"  >
+        <div class="parallax"> <img src="C:\Users\user\Desktop\local-website\images\reviews.jpeg" width="100%" alt="" /> </div>
+      </div>
+
+      <div class="carousel-item white-text center" href="#!" > <!-- one two three four -->
+            <h2> Emri </h2>
+            <p class="white-text"> Pershtypja </p>
+      </div>
+
+      <div class="carousel-item white-text" href="#!" >
+        <h2> Emri </h2>
+            <p class="white-text"> Pershtypja </p>
+
+      </div>
+
+      <div class="carousel-item white-text" href="#!">
+
+
+            <h2> Emri </h2>
+            <p class="white-text"> Pershtypja </p>
+
+      </div>
+
+      <div class="carousel-item white-text" href="#!">
+
+
+            <h2> Emri </h2>
+            <p class="white-text"> Pershtypja </p>
+
+
+      </div>
+
+
+</div>
+</div>
+<!--  Mbarojne Komentet -->
+
+
+<!--  Fillon Shkruaj mesazhin dhe kontakt -->
+<div class="row" id="sms" >
+  <h4 class=" movement " > Write a Mesage ! </h4>
+</div>
+
+<div class="row" style="margin-bottom: 15%;">
+
+  <div class="col s12 " >  <!-- Fillon mesazhi  -->
+    <span style=" float: left; color: white; font-weight: 400; "  class=" badge red darken-3 ">  Meages temporarly deactivated for maintace purpose!  </span> <br>
+              
+      <!-- 
+      <div id="posting-data-form">
+        
+                action="mesazhet"  
+        -->
+                  <form action="#"  method="post" >
+                    <input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+                  
+                    <div class="input-field col s12 l6">
+                      <input type="text" name="Subjekti" id="subjekti" />
+                      <label for = "subjekti" >  <i class="fa fa-envelope-o " style=" color: blue;"></i> Subject </label> 
+                    </div>
+                 
+        
+                      <div class="input-field col s12 l6">
+                        <input id="mesazhi" type="text" class="validate" name="mesazhi" >
+                        <label for="mesazhi"  > <i class="fa fa-pencil" style=" color: blue;" ></i> Mesage </label>
+                      </div>
+                
+                    <button id="send-sms" class="btn waves-effect waves-light blue darken-3" type="submit" name="action" style=" color: whitesmoke; ">
+                      Send Mesage
+                        <i class="fa fa-arrow-circle-o-up" ></i>  
+                    </button>
+        
+                   
+                    </form>
+        
+              
+
+</div>  <!--  Mbaron Shkruaj mesazhin  -->
+
+</div>
+
+<!--  Mbaron Shkruaj mesazhin dhe kontakt -->
+
+
+
+
+ <footer class="page-footer black">  <!-- duhen bere linqet -->
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Footer Content</h5>
+        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text"> Services </h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Web Development</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Web Designe</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Fixing Bugs </a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Sql Queries</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Web App</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    <a style=" padding: 2%; " class="grey-text text-lighten-4 right" href="#!">  ABOUT  </a>
+    <a style=" padding: 2%; " class="grey-text text-lighten-4 right" href="#!">  PORTOFOLIO  </a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+ 
+
+  <!--  
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" >  </script>
+   Compiled and minified JavaScript
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  -->
+ 
+    <!--  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>       
+   -->
+<!--  --> 
+   <script src="C:\Users\user\Desktop\local-website\js\jquery-2.2.3.min.js"></script>  
+  
+   <script src="C:\Users\user\Desktop\local-website\js\materialize.js"></script>  
+   <script src="C:\Users\user\Desktop\local-website\js\popmotion.global.min.js"></script>  
+  
+  <script type="text/javascript">
+//
+
+
+
+
+function myFunction() {
+ document.querySelector('#myDropdown').classList.toggle("show");
+ 
+}
+
+
+
+
+
+       //   send-sms
+        var Sms = document.querySelector('#send-sms');
+         Sms.addEventListener( "click", ( e ) => {
+
+                  e.preventDefault();  
+         });
+ 
+
+
+
+   $(document).ready( function(){
+
+        // collapsible
+        $('.collapsible').collapsible();
+
+         // dropdown activation
+         $(".dropdown-trigger").dropdown( { hover: true,
+          constrainWidth: false } );  
+
+        // Side nav activation
+        $('.sidenav').sidenav();
+
+        $('.carousel').carousel({
+          fullWidth: true,
+          indicators: true
+
+        });
+      // $('.materialboxed').materialbox();
+
+      $('.pushpin').pushpin({ top: 800 });
+
+
+ 
+    });
+
+  
+  
+  function valueBarChanging( borderNumber, clsname ) {
+
+  var pos = 0;
+  clsname = '.' + clsname;
+    var id ;
+
+id = setInterval( chaige , 10 );
+
+    function chaige(  ) {
+  
+        if ( pos == borderNumber ) {
+      
+      clearInterval(id);
+    } else {
+
+     pos++; 
+     
+      document.querySelector(clsname).innerHTML = pos + "%" ;
+      let percentBar = clsname + '-d';
+      document.querySelector(percentBar).style.width = pos + "%" ;
+       
+    }
+  
+  }
+      
+  }
+
+
+
+
+  function ChangingValue( borderNumber, clsname ) {
+
+var pos = 0;
+clsname = '.' + clsname;
+  var id ;
+
+id = setInterval( chaige , 10 );
+
+  function chaige(  ) {
+   
+      if ( pos == borderNumber ) {
+       
+   clearInterval(id);
+  } else {
+    pos++; 
+   var mySpanNodes = document.querySelectorAll(clsname);
+
+   for( let i = 0 ; i < mySpanNodes.length ; i++ ){
+    mySpanNodes[i].innerHTML = pos ;
+   }
+
+  }
+
+}
+    
+}
+
+
+/* hover */
+
+const { styler, spring, stagger, value  } = window.popmotion;
+
+
+
+let douwnUPFirstTime = true;
+let duwnUp = ( id ) => {
+
+// console.log( id );
+let serviceText = document.querySelectorAll(id);
+
+if( douwnUPFirstTime ){
+serviceText.forEach( (ball) =>{
+      // console.log( ' serviceText :  ', ball );
+
+      const divStyler = styler(ball);
+      const ballXY = value({ x: 0, y: 0 }, divStyler.set);
+
+
+        spring({
+        from: { x: 0, y: 100 },
+        to: { x: 0, y: 0 },
+        stiffness: 200,
+        mass: 1,
+        damping: 40
+
+        }).start(ballXY);
+
+
+            });
+            douwnUPFirstTime = false;
+          }
+
+}
+
+
+let leftRightFirstTime = true;
+let leftRight = ( id ) => {
+
+// console.log( id );
+let serviceText = document.querySelectorAll(id);
+
+if( leftRightFirstTime ){
+serviceText.forEach( (ball) =>{
+      // console.log( ' serviceText :  ', ball );
+
+      const divStyler = styler(ball);
+      const ballXY = value({ x: 0, y: 0 }, divStyler.set);
+
+
+        spring({
+        from: { x: -100, y: 0 },
+        to: { x: 0, y: 0 },
+        stiffness: 200,
+         mass: 1,
+         damping: 50
+
+        }).start(ballXY);
+
+
+            });
+            leftRightFirstTime = false;
+          }
+
+}
+
+let rightLeftFirstTime = true;
+let rightLeft = ( id ) => {
+
+// console.log( id );
+let serviceText = document.querySelectorAll(id);
+
+if( rightLeftFirstTime ){
+serviceText.forEach( (ball) =>{
+      // console.log( ' serviceText :  ', ball );
+
+      const divStyler = styler(ball);
+      const ballXY = value({ x: 0, y: 0 }, divStyler.set);
+
+
+        spring({
+        from: { x: 100, y: 0 },
+        to: { x: 0, y: 0 },
+        stiffness: 200,
+        mass: 1,
+        damping: 100
+
+        }).start(ballXY);
+
+
+            });
+            rightLeftFirstTime = false;
+          }
+
+}
+
+// var firstSection = true ;
+
+
+// scroll event adding to the window    ska mbaruar
+
+window.addEventListener('scroll', (e)=>{
+   // console.log( ' scrolling  : ', e.clientX , e.clientY ); , window.scrollX 
+    console.log( ' scrolling  : ', window.scrollY );
+    const positiony = window.scrollY ;
+
+    const scrollable = document.documentElement.scrollHeight ; //- window.innerHeight;
+   // console.log( ' scrolable space  : ', scrollable );
+
+    const bodyHeght = $('body').position();
+    const wallImgHeght = $('#wall-img').position();
+    const aboutHeght = $('#about').position();
+    const servicesHeght = $('#services').position();
+    const arritjeHeght = $('#arritje').position();
+    const arritjeHeght1 = $('#arritje1').position();
+    const portofoliHeght = $('#portofoli').position();
+    const knouldigeHeght = $('#knouldige').position();
+    const pershtypjeHeght = $('#pershtypje').position();
+    const smsHeght = $('#sms').position();
+    const footerHeght = $('.page-footer').position();
+
+/* 
+  animating element while scrolling
+*/
+
+let partialHeightUp;
+
+  if( positiony < aboutHeght.top ){
+    console.log( ' You  are in img part ' );
+
+// shaking paragraphs
+   duwnUp('.move-paragraph');
+     
+  }
+
+  partialHeightBotom = ( servicesHeght.top + aboutHeght.top ) / 2;
+  // partialHeightUp = ( servicesHeght.top - aboutHeght.top ) * 0.7; 
+
+  if( positiony < partialHeightBotom && positiony >  aboutHeght.top ){
+    console.log( ' You  are in about part first half ' );
+    // duwnUp
+    leftRight('#paragraphmove');
+    rightLeft('#paragraph-move');
+
+    fillBarsChangeNr();
+   // valueBar();
+  }
+  if( positiony < servicesHeght.top && positiony >  partialHeightBotom ){
+    console.log( ' You  are in about part near service ' );
+
+     duwnUp('.service-text');
+  }
+
+  partialHeightBotom = ( arritjeHeght.top + servicesHeght.top ) * 0.5;
+
+  if( positiony < partialHeightBotom  && positiony > servicesHeght.top  ){
+    console.log( ' You  arritje in services part first half ' );
+    // muving paragraph
+    duwnUp('.move-paragraph');
+    leftRight('#paragraphmove');
+    rightLeft('#paragraph-move');
+    fillBarsChangeNr();
+  }
+
+  if( positiony < arritjeHeght.top  && positiony > partialHeightBotom ){
+    console.log( ' You  arritje in services part second half' );
+  //  fillBarsChangeNr();
+  }
+
+  if( positiony < portofoliHeght.top  && positiony > arritjeHeght.top  ){
+    console.log( ' You  are in arritje part ' );
+    // fillBarsChangeNr();
+  }
+
+  if( positiony < portofoliHeght.top  && positiony > arritjeHeght1.top  ){
+    console.log( ' You  are in portofolio part ' );
+    fillBarsChangeNr();
+    valueBar();
+  }
+  
+  partialHeightBotom = ( knouldigeHeght.top + portofoliHeght.top ) * 0.5;
+
+  if( positiony < partialHeightBotom  && positiony > portofoliHeght.top  ){
+    console.log( ' You  are in knouldige first part ' );
+
+   // valueBar();
+  }
+
+  if( positiony < knouldigeHeght.top  && positiony > partialHeightBotom  ){
+    console.log( ' You  are in knouldige second part ' );
+
+   // valueBar();
+  }
+
+  partialHeightBotom = ( pershtypjeHeght.top + knouldigeHeght.top ) * 0.5;
+
+  if( positiony < partialHeightBotom  && positiony > knouldigeHeght.top  ){
+    console.log( ' You  are in pershtypje first part ' );
+    valueBar();
+  }
+
+  if( positiony < pershtypjeHeght.top  && positiony > partialHeightBotom  ){
+    console.log( ' You  are in pershtypje second part  ' );
+  //  valueBar();
+  }
+
+
+  partialHeightBotom = ( smsHeght.top + pershtypjeHeght.top ) * 0.5;
+
+  if( positiony < partialHeightBotom  && positiony > pershtypjeHeght.top  ){
+    console.log( ' You  are in mesage first part ' );
+  }
+
+  if( positiony < smsHeght.top  && positiony > partialHeightBotom  ){
+    console.log( ' You  are in mesage part near footer ' );
+  }
+
+/* 
+  if( positiony < footerHeght.top  ){
+    console.log( ' You  are in footer part ' );
+  }
+ */
+
+});
+
+
+
+
+// 
+  var firstTimeCheck = true ;
+//  $('#knouldige').hover(
+    let valueBar = () => {
+
+    
+    // console.log( 'firstTimeCheck  ; ' , firstTimeCheck );
+    if( firstTimeCheck ){
+
+        var elem = $('.perdent-val'); 
+        // console.log( 'elem  ; ' , elem[0].classList[1] );
+        let borderNumber = elem[0].innerText ;
+        borderNumber = borderNumber.replace( '%', '' );
+
+        valueBarChanging( borderNumber, elem[0].classList[1] );
+
+
+        elem = $('.perdent'); 
+        borderNumber = elem[0].innerText ;
+        borderNumber = borderNumber.replace( '%', '' );
+        valueBarChanging( borderNumber, elem[0].classList[1] );
+
+        elem = $('.val'); 
+        borderNumber = elem[0].innerText ;
+        borderNumber = borderNumber.replace( '%', '' );
+        valueBarChanging( borderNumber, elem[0].classList[1] );
+
+        elem = $('.perdentval'); 
+        borderNumber = elem[0].innerText ;
+        borderNumber = borderNumber.replace( '%', '' );
+        valueBarChanging( borderNumber, elem[0].classList[1] );
+
+        firstTimeCheck = false ;
+    }
+
+  }
+
+
+//
+var firstTimeCheckAchivements = true ;
+// $('.achivements').hover(
+ let fillBarsChangeNr = () => {
+
+      if( firstTimeCheckAchivements ){
+        var elem = $('.CMS'); 
+        borderNumber = elem[0].innerText ;
+        ChangingValue( borderNumber, elem[0].className);
+
+        elem = $('.API'); 
+        borderNumber = elem[0].innerText ;
+        ChangingValue( borderNumber, elem[0].className );
+
+        elem = $('.WD'); 
+        borderNumber = elem[0].innerText ;
+        ChangingValue( borderNumber, elem[0].className );
+
+        elem = $('.WDE'); 
+        borderNumber = elem[0].innerText ;
+        ChangingValue( borderNumber, elem[0].className );
+
+        firstTimeCheckAchivements = false ;
+      }
+  }
+
+
+
+    </script>
+
+
+
+    </body>
+</html>
